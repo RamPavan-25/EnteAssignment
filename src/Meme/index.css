@@ -1,0 +1,15 @@
+.meme-img-size{
+    width: 45%;
+    height: 20%;
+    margin: 20px;
+}
+.meme-background{
+    background-color: black;
+    padding: 20px;
+}
+.meme-heading{
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}

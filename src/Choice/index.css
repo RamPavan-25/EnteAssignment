@@ -1,0 +1,64 @@
+.choice-full-background{
+    min-height: 100vh;
+    background-image: url("https://i.postimg.cc/N0N3DT75/wallpapersden-com-spider-man-no-way-home-4k-meme-3840x2160.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choice-second-background{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 7px;
+}
+.choice-button {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.choice-img{
+    height: 150px;
+    margin-top: 5px;
+}
+.choice-heading{
+    color: #ffffff;
+    font-family: "roboto";
+    font-weight: 300;
+}
+.choice-para{
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #ffffff;
+}
+.choice-button:hover{
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    transition: 0.5s;
+  }

@@ -1,0 +1,81 @@
+.genre-full-background{
+    min-height: 100vh;
+    background-image: url("https://i.postimg.cc/4dDdXJ51/111072-digital-art-geometry-texture-black-dark-triangle-abstract-material-style-orange.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.genre-second-background{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 7px;
+}
+.genre-heading{
+    color: black;
+    font-family: "roboto";
+    font-weight: bold;
+}
+.genre-card-img{
+    width: 120px;
+    height: 75px;
+}
+.card-background{
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    padding-top: 15px;
+}
+.card-background:hover{
+    cursor: pointer;
+}
+.card-heading{
+    color: black;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.genre-third-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.genre-fourth-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+.genre-fifth-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.genreChangeBorder{
+    border-style: solid;
+    border-width: 4px;
+    border-color:cyan;
+}
